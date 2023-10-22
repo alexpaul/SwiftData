@@ -1,6 +1,6 @@
 # Model Context 
 
-## Using the model context to modify SwiftData objects 
+## Create an instance of the model context from the `Environment` 
 
 ```swift
 struct ContentView: View {
@@ -26,7 +26,9 @@ struct ContentView: View {
 
 ***
 
-## Inserting a new object in the model context 
+## Insert a new object into the model context 
+
+> Note: this operation will autosave to SwiftData
 
 ```swift
 struct ContentView: View {
