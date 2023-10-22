@@ -32,7 +32,7 @@ let sampleContainer: ModelContainer = {
 
 ***
 
-## Inject the App with a model container instance via a modifier
+## Inject the `App` with a model container instance via a modifier
 
 ```swift
 @main
