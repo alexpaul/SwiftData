@@ -22,3 +22,30 @@ let sampleContainer: ModelContainer = {
     }
 }()
 ```
+
+***
+
+## Inject the App with a model container instance via a modifier
+
+```swift
+@main
+struct SwiftDataPlaygroundApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .modelContainer(sampleContainer)
+        }
+    }
+}
+```
+
+***
+
+## Inject a `Preview` with a model container instance 
+
+```swift
+#Preview {
+    ContentView()
+        .modelContainer(sampleContainer)
+}
+```
