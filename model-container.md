@@ -22,6 +22,7 @@ let sampleContainer: ModelContainer = {
             let counter = Counter.init(currentCount: 0)
             container.mainContext.insert(counter)
         }
+        // 3
         return container
     } catch {
         fatalError("Could not instantiate model container")
